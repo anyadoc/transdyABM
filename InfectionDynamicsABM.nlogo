@@ -57,7 +57,7 @@ to-report trans-prob
 end
 
 to go
-  if ticks >= 0 [ ; to get the model to run, DJC
+  if ticks >= 0 [ ; to get the model to run, DJC part 2
     if ticks = 360 [
       stop
       ]
