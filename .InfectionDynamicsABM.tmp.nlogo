@@ -1,5 +1,5 @@
 ;This version has a bug - please correct the error to make this model runnable and upload it on the github repository.
-; This is edited by Lynda Bradley
+
 globals [ ]
 turtles-own [
   gr             ;group (red or blue)
@@ -57,7 +57,7 @@ to-report trans-prob
 end
 
 to go
-  if ticks >= 0 [ ; to get the model to run, DJC
+  if ticks > 0 [
     if ticks = 360 [
       stop
       ]
