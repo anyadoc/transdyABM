@@ -56,7 +56,7 @@ to-report trans-prob
 end
 
 to go
-  if ticks > 0 [
+  if ticks >= 0 [ ; to get the model to run, DJC
     if ticks = 360 [
       stop
       ]
@@ -551,7 +551,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.2.1
+NetLogo 6.2.2
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
