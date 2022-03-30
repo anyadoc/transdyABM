@@ -1,5 +1,6 @@
 ;This version has a bug - please correct the error to make this model runnable and upload it on the github repository.
 ; This is edited by Lynda Bradley
+;edited by deeclab
 globals [ ]
 turtles-own [
   gr             ;group (red or blue)
